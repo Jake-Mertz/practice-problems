@@ -11,12 +11,9 @@
 
       function removeNullValues(array) {
         var newArray = [];
-        var oldArray = [];
         for (var i = 0; i < array.length; i++) {
-          if (array[i]) {
+          if (array[i] !== null) {
             newArray.push(array[i]);
-          } else {
-            oldArray.push(array[i]);
         }
       }
       return newArray;
