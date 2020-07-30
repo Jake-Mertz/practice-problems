@@ -8,14 +8,13 @@
     <script>
 
 
-        function freeCoffeeCups(coffeeCups) {
-          var freeCups = coffeeCups / 6;
-            if (coffeeCups % 6 === 0) {
-              coffeeCups = coffeeCups + freeCups;
+          function freeCoffeeCups(coffeeCups) {
+            var freeCups = coffeeCups / 6;
+            if (coffeeCups >= 6) {
+              coffeeCups = coffeeCups + (Math.floor(freeCups));
             }
-          return coffeeCups;
-        }
-
+            return coffeeCups;
+          }
 
 
 
