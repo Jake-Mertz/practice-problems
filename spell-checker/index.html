@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>practice problem spell checker</title>
+  </head>
+  <body>
+
+    <script>
+
+
+    function spellChecker(userwords, correctWords) {
+      let object = {correct: [], incorrect: []};
+      for (let i = 0; i < userwords.length; i++) {
+        if (userwords[i] === correctWords[i]) {
+          object.correct.push(userwords[i]);
+        } else {
+          object.incorrect.push(userwords[i]);
+        }
+      }
+      return object;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
