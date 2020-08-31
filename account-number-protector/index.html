@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>practice problem account number protector</title>
+  </head>
+  <body>
+
+    <script>
+
+    function accountNumberProtector(cardNumberString) {
+      let protectedNumber = "**";
+      for (let i = 0; i < cardNumberString.length; i++) {
+        if (i > cardNumberString.length -5) {
+          protectedNumber += cardNumberString[i];
+        }
+      }
+      return protectedNumber;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
