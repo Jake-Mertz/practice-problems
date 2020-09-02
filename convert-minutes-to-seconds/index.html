@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>practice problems convert minutes to seconds</title>
+  </head>
+  <body>
+
+    <script>
+
+      function convertMinutesToSeconds(timeToConvert) {
+        let minutes = '';
+        let seconds = '';
+        for (let i = 0; i < 2; i++) {
+          minutes += timeToConvert[i];
+        }
+        for (let v = 0; v < timeToConvert.length; v++) {
+          if (v > 2) {
+            seconds += timeToConvert[v];
+          }
+        }
+        return (parseInt(minutes) * 60) + parseInt(seconds);
+      }
+
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
